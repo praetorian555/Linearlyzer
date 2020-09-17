@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
+
+*, *::before, *::after
+{
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+header {
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 2rem;
+    background-image: url("https://images.pexels.com/photos/1787035/pexels-photo-1787035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-color: #555;
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 200vh;
+}
